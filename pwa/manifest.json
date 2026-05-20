@@ -1,0 +1,21 @@
+{
+  "name": "উত্তরবঙ্গ স্বাস্থ্য সেতু",
+  "short_name": "স্বাস্থ্য সেতু",
+  "description": "North Bengal's Healthcare Discovery Platform",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F4F7FB",
+  "theme_color": "#1A6FBA",
+  "orientation": "portrait",
+  "lang": "bn",
+  "icons": [
+    { "src": "/src/assets/icons/logo-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/src/assets/icons/logo-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "ডাক্তার", "url": "/doctors", "icons": [{ "src": "/src/assets/icons/doctor.svg", "sizes": "96x96" }]},
+    { "name": "হাসপাতাল", "url": "/hospitals", "icons": [{ "src": "/src/assets/icons/hospital.svg", "sizes": "96x96" }]},
+    { "name": "জরুরি", "url": "/?emergency=1", "icons": [{ "src": "/src/assets/icons/emergency.svg", "sizes": "96x96" }]}
+  ]
+}

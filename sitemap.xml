@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://uttarbanga-swasthya.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://uttarbanga-swasthya.app/doctors</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://uttarbanga-swasthya.app/hospitals</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://uttarbanga-swasthya.app/symptoms</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://uttarbanga-swasthya.app/about</loc><changefreq>monthly</changefreq></url>
+</urlset>

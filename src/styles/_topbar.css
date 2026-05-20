@@ -1,0 +1,14 @@
+.topbar{
+  position:fixed;top:0;left:0;right:0;z-index:30;
+  height:var(--topbar-h);
+  background:var(--brand-surface);
+  display:flex;align-items:center;gap:var(--sp-3);
+  padding:0 var(--sp-3);
+  box-shadow:0 1px 3px rgba(0,0,0,.06);
+  max-width:var(--max-w);margin:0 auto;
+}
+.topbar .tb-title{font-family:var(--font-display);font-weight:700;font-size:17px;flex:1;text-align:center}
+.topbar .tb-btn{width:40px;height:40px;border-radius:var(--radius-full);display:grid;place-items:center;color:var(--brand-text)}
+.topbar .tb-btn:active{background:var(--brand-primary-50)}
+.topbar.home .tb-title{text-align:left;display:flex;align-items:center;gap:var(--sp-2)}
+.topbar.home .logo{width:32px;height:32px}

@@ -1,0 +1,30 @@
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+@keyframes shimmer{0%{background-position:-400px 0}100%{background-position:400px 0}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.fade-in{animation:fadeIn .35s var(--ease) both}
+.skeleton{background:linear-gradient(90deg,#EDF2F7 0%,#F7FAFC 50%,#EDF2F7 100%);background-size:800px 100%;animation:shimmer 1.2s linear infinite;border-radius:var(--radius-md)}
+.spinner{width:24px;height:24px;border:3px solid var(--brand-primary-50);border-top-color:var(--brand-primary);border-radius:50%;animation:spin .8s linear infinite}
+
+/* Splash */
+.splash{position:fixed;inset:0;z-index:100;background:linear-gradient(160deg,#1A6FBA 0%,#0D9E6A 100%);display:grid;place-items:center;color:#fff;transition:opacity .4s var(--ease)}
+.splash.hide{opacity:0;pointer-events:none}
+.splash-inner{text-align:center;padding:var(--sp-6)}
+.splash-inner img{margin:0 auto var(--sp-4);filter:drop-shadow(0 4px 12px rgba(0,0,0,.2))}
+.splash-inner h1{color:#fff;font-size:22px}
+.splash-inner p{opacity:.95;margin-top:6px;font-size:14px}
+.splash-bar{width:120px;height:3px;background:rgba(255,255,255,.25);border-radius:2px;margin:var(--sp-5) auto 0;overflow:hidden}
+.splash-bar span{display:block;height:100%;background:#fff;width:30%;animation:splashLoad 1.8s var(--ease) forwards}
+@keyframes splashLoad{to{width:100%}}
+
+/* FAB */
+.fab{position:fixed;right:16px;bottom:calc(var(--navbar-h) + 16px + env(safe-area-inset-bottom));z-index:40}
+.fab-btn{width:56px;height:56px;border-radius:50%;background:var(--brand-emergency);color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(229,62,62,.4);transition:transform .2s var(--ease)}
+.fab-btn:active{transform:scale(.92)}
+.fab-menu{position:absolute;right:0;bottom:68px;display:flex;flex-direction:column;gap:10px;align-items:flex-end;opacity:0;transform:translateY(8px);pointer-events:none;transition:all .2s var(--ease)}
+.fab.open .fab-menu{opacity:1;transform:none;pointer-events:auto}
+.fab-item{display:flex;align-items:center;gap:8px;background:#fff;padding:10px 14px;border-radius:var(--radius-full);box-shadow:var(--shadow-md);font-size:13px;font-weight:700;color:var(--brand-text)}
+
+/* Toast */
+.toast{position:fixed;bottom:calc(var(--navbar-h) + 80px);left:50%;transform:translateX(-50%) translateY(20px);background:#1A202C;color:#fff;padding:10px 16px;border-radius:var(--radius-full);font-size:13px;opacity:0;transition:all .25s var(--ease);z-index:90}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}

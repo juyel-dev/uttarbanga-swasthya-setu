@@ -1,0 +1,4 @@
+.offline-page{padding:var(--sp-8) var(--sp-4);text-align:center;min-height:60vh;display:grid;place-items:center}
+.offline-page .ico{font-size:64px;margin-bottom:var(--sp-3)}
+.offline-page h2{margin-bottom:var(--sp-2)}
+.offline-page p{color:var(--brand-muted);margin-bottom:var(--sp-4)}

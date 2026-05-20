@@ -1,0 +1,12 @@
+html{font-family:var(--font-body);color:var(--brand-text);background:var(--brand-bg)}
+body{font-size:15px;background:var(--brand-bg)}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.25;color:var(--brand-text)}
+h1{font-size:24px}h2{font-size:20px}h3{font-size:17px}h4{font-size:15px}
+small,.muted{color:var(--brand-muted);font-size:13px}
+.num{font-family:var(--font-num);font-feature-settings:"tnum"}
+.section{padding:var(--sp-5) var(--sp-4)}
+.section-title{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:var(--sp-3)}
+.section-title h2{font-size:18px}
+.section-title a{color:var(--brand-primary);font-size:13px;font-weight:600}
+.subtitle{color:var(--brand-muted);font-size:13px;margin-top:-6px;margin-bottom:var(--sp-3)}
+.divider{height:1px;background:var(--brand-border);margin:var(--sp-4) 0}

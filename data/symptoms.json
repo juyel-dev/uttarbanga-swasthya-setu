@@ -1,0 +1,14 @@
+[
+  {"slug":"fever","label_bn":"জ্বর","label":"Fever","emoji":"🤒","specialty_slug":"medicine","specialty_bn":"মেডিসিন","description":"৩ দিনের বেশি জ্বর থাকলে মেডিসিন বিশেষজ্ঞ দেখান।"},
+  {"slug":"chest-pain","label_bn":"বুকে ব্যথা","label":"Chest Pain","emoji":"❤️","specialty_slug":"cardiology","specialty_bn":"হৃদরোগ","description":"বুকে চাপা ব্যথা হৃদরোগের লক্ষণ হতে পারে — দ্রুত হৃদরোগ বিশেষজ্ঞ দেখান।"},
+  {"slug":"headache","label_bn":"মাথাব্যথা","label":"Headache","emoji":"🤕","specialty_slug":"neurology","specialty_bn":"নিউরোলজি","description":"নিয়মিত মাথাব্যথা থাকলে নিউরোলজিস্ট দেখান।"},
+  {"slug":"cough","label_bn":"কাশি","label":"Cough","emoji":"😷","specialty_slug":"pulmonology","specialty_bn":"বক্ষব্যাধি","description":"২ সপ্তাহের বেশি কাশি থাকলে বক্ষব্যাধি বিশেষজ্ঞ দেখান।"},
+  {"slug":"skin-rash","label_bn":"চর্ম র‍্যাশ","label":"Skin Rash","emoji":"🧴","specialty_slug":"dermatology-venereology","specialty_bn":"চর্মরোগ","description":"চুলকানি বা ফুসকুড়ি থাকলে চর্ম বিশেষজ্ঞ দেখান।"},
+  {"slug":"eye-pain","label_bn":"চোখের সমস্যা","label":"Eye Issues","emoji":"👁️","specialty_slug":"ophthalmology","specialty_bn":"চক্ষুরোগ","description":"ঝাপসা দৃষ্টি বা চোখে ব্যথা থাকলে চক্ষু বিশেষজ্ঞ দেখান।"},
+  {"slug":"tooth-pain","label_bn":"দাঁতে ব্যথা","label":"Toothache","emoji":"🦷","specialty_slug":"dental","specialty_bn":"দন্তরোগ","description":"দাঁতে ব্যথা বা মাড়ি ফুলে গেলে ডেন্টিস্ট দেখান।"},
+  {"slug":"joint-pain","label_bn":"হাড়/জয়েন্টে ব্যথা","label":"Joint Pain","emoji":"🦴","specialty_slug":"orthopedics","specialty_bn":"অর্থোপেডিক","description":"হাঁটু বা কোমরে ব্যথা থাকলে অর্থোপেডিক দেখান।"},
+  {"slug":"pregnancy","label_bn":"গর্ভাবস্থা","label":"Pregnancy","emoji":"🤰","specialty_slug":"gynecology-obstetrics","specialty_bn":"স্ত্রীরোগ","description":"গর্ভাবস্থায় নিয়মিত স্ত্রীরোগ বিশেষজ্ঞ দেখান।"},
+  {"slug":"child-fever","label_bn":"শিশুর জ্বর","label":"Child Fever","emoji":"👶","specialty_slug":"child-specialist","specialty_bn":"শিশু রোগ","description":"শিশুর জ্বর বা সমস্যা হলে শিশু বিশেষজ্ঞ দেখান।"},
+  {"slug":"diabetes","label_bn":"ডায়াবেটিস","label":"Diabetes","emoji":"🩸","specialty_slug":"diabetes-endocrinology","specialty_bn":"ডায়াবেটিস","description":"ব্লাড সুগার নিয়ন্ত্রণে ডায়াবেটিস বিশেষজ্ঞ দেখান।"},
+  {"slug":"ear-pain","label_bn":"কান/গলায় সমস্যা","label":"ENT","emoji":"👂","specialty_slug":"ent","specialty_bn":"ENT","description":"কান, নাক বা গলার সমস্যায় ENT দেখান।"}
+]

@@ -1,0 +1,45 @@
+.card{background:var(--brand-surface);border-radius:var(--radius-lg);box-shadow:var(--shadow-md);padding:var(--sp-4);transition:transform .15s var(--ease)}
+.card:active{transform:scale(.985)}
+
+/* Category */
+.cat-card{display:flex;flex-direction:column;align-items:center;gap:var(--sp-2);padding:var(--sp-4) var(--sp-2);border-radius:var(--radius-lg);background:var(--brand-surface);box-shadow:var(--shadow-sm);text-align:center}
+.cat-card .icon{width:48px;height:48px;display:grid;place-items:center;color:var(--brand-primary);background:var(--brand-primary-50);border-radius:var(--radius-full)}
+.cat-card .icon svg{width:26px;height:26px}
+.cat-card .lbl{font-size:12.5px;font-weight:600;line-height:1.25}
+
+/* Doctor card */
+.doc-card{display:flex;flex-direction:column;gap:var(--sp-3);background:var(--brand-surface);border-radius:var(--radius-lg);padding:var(--sp-4);box-shadow:0 2px 12px rgba(0,0,0,.07)}
+.doc-card .head{display:flex;gap:var(--sp-3)}
+.doc-card .avatar{width:72px;height:72px;border-radius:var(--radius-full);background:var(--brand-primary-50);object-fit:cover;flex:0 0 auto;display:grid;place-items:center;color:var(--brand-primary);font-family:var(--font-num);font-weight:800;font-size:24px}
+.doc-card .meta{flex:1;min-width:0}
+.doc-card .name{font-family:var(--font-display);font-weight:700;font-size:15px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.doc-card .qual{font-size:12.5px;color:var(--brand-muted);margin-top:2px}
+.doc-card .row2{display:flex;gap:8px;align-items:center;margin-top:6px;flex-wrap:wrap}
+.doc-card .row3{display:flex;gap:var(--sp-4);align-items:center;font-size:12.5px;color:var(--brand-text);margin-top:6px}
+.doc-card .actions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--sp-2)}
+.doc-card .actions .btn{padding:10px 0;font-size:13px}
+
+/* Hospital horizontal card */
+.hosp-card{width:240px;background:var(--brand-surface);border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-md)}
+.hosp-card .ph{height:120px;background:linear-gradient(135deg,#1A6FBA,#0D9E6A);display:grid;place-items:center;color:#fff}
+.hosp-card .body{padding:var(--sp-3)}
+.hosp-card .name{font-weight:700;font-size:14px;margin-bottom:4px}
+.hosp-card .loc{font-size:12px;color:var(--brand-muted);margin-bottom:8px}
+
+/* Ad */
+.ad-card{background:var(--brand-surface);border-radius:var(--radius-lg);padding:var(--sp-4);box-shadow:var(--shadow-sm);border:1px dashed var(--brand-border)}
+.ad-card .ad-lbl{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--brand-muted);margin-bottom:6px}
+
+/* Symptom */
+.symp-card{padding:var(--sp-4);background:var(--brand-surface);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);display:flex;flex-direction:column;align-items:center;gap:var(--sp-2);text-align:center}
+.symp-card .emoji{font-size:32px}
+.symp-card .lbl{font-size:13px;font-weight:600}
+
+/* Review */
+.rev-card{padding:var(--sp-4);background:var(--brand-surface);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);margin-bottom:var(--sp-3)}
+.rev-card .who{display:flex;align-items:center;gap:var(--sp-2);margin-bottom:6px}
+.rev-card .who .av{width:32px;height:32px;border-radius:50%;background:var(--brand-primary-50);display:grid;place-items:center;color:var(--brand-primary);font-weight:700}
+
+/* Stats */
+.stat-pill{display:flex;align-items:center;gap:var(--sp-2);padding:10px 14px;background:var(--brand-surface);border-radius:var(--radius-full);box-shadow:var(--shadow-sm);font-size:13px;font-weight:600;white-space:nowrap}
+.stat-pill .num{color:var(--brand-primary);font-weight:800}

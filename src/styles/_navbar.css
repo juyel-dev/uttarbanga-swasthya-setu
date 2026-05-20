@@ -1,0 +1,13 @@
+.navbar{
+  position:fixed;bottom:0;left:0;right:0;z-index:30;
+  height:calc(var(--navbar-h) + env(safe-area-inset-bottom));
+  padding-bottom:env(safe-area-inset-bottom);
+  background:var(--brand-surface);
+  border-top:1px solid var(--brand-border);
+  display:grid;grid-template-columns:repeat(5,1fr);
+  max-width:var(--max-w);margin:0 auto;
+}
+.nav-item{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;color:var(--brand-inactive);font-size:11px;font-weight:600;transition:color .15s var(--ease)}
+.nav-item svg{width:22px;height:22px;stroke-width:1.8}
+.nav-item.active{color:var(--brand-primary)}
+.nav-item.active svg{stroke-width:2.2}

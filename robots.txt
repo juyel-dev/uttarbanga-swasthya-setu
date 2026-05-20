@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://uttarbanga-swasthya.app/sitemap.xml

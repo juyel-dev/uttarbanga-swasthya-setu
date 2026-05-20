@@ -1,0 +1,7 @@
+@media (min-width:768px){
+  :root{--max-w:760px}
+  .grid-3{grid-template-columns:repeat(4,1fr)}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms !important;transition-duration:.001ms !important}
+}
